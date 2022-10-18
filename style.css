@@ -1,0 +1,124 @@
+html {
+  box-sizing : border-box;
+  font-family : 'karla';
+  font-size : 16px;
+  margin : 40px
+}
+
+h2, h4, p {
+  margin : 0
+}
+
+*, *:before, *:after {
+  box-sizing : inherit;
+}
+
+.card {
+  width: 650px;
+  height : 450px;
+  box-shadow: -1px 3px 23px -6px rgba(0,0,0,0.75);
+  border-radius : 5px;
+  overflow : hidden;
+}
+
+.up {
+  width: 100%;
+  height : 45%;
+  padding : 40px
+}
+
+.down {
+  width: 100%;
+  height : 55%;
+  color : #e5eff5
+}
+
+.left {
+  vertical-align : top;
+  display : inline-block;
+  width: 50%;
+  height : 100%;
+  background-color : #2ab2af;
+  padding : 40px
+}
+
+.right {
+  verical-aling : up;
+  display : inline-block;
+  width: 50%;
+  height : 100%;
+  background-color : #2EBFBD;
+  padding : 40px
+}
+
+.up h2 {
+  color : #2ab2af;
+  padding-bottom : 20px
+}
+
+.up h4 {
+  color : #c0df34;
+  padding-bottom : 15px
+  
+}
+
+.up p {
+  color : #98a6bd
+}
+
+.left h4 {
+  padding-bottom : 20px
+}
+
+button {
+  width : 100%;
+  height : 40px;
+  color : #e5eff5;
+  background-color : #c0df34;
+  border-radius : 5px;
+  border : 0px;
+  font-family : 'karla';
+  box-shadow: -1px 3px 23px -6px rgba(0,0,0,0.6);
+  margin-top : 30px
+}
+
+button:hover {
+  cursor : pointer;
+  background-color : #C7EB2A;
+  transform : scale(1.03)
+}
+
+#price-tag {
+  margin-bottom : 10px
+}
+
+#price, #frec {
+  display : inline-block;
+}
+
+#price {
+  font-weight : 700;
+  font-size : 1.9rem
+}
+
+#frec {
+  padding-left : 10px;
+  position : relative;
+  top : -4px;
+  opacity : 0.6
+}
+
+.right h4 {
+  padding-bottom : 4px
+}
+
+ul {
+  padding : 0px;
+  list-style : none;
+  font-size : 0.9rem;
+  opacity : 0.8;
+}
+
+li {
+  margin-bottom : 3px
+}
