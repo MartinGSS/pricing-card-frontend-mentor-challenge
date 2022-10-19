@@ -122,3 +122,10 @@ ul {
 li {
   margin-bottom : 3px
 }
+
+@media (max-width: 750px){
+  .left, .right , .card{
+    height : auto;
+    width : 100%;
+  }
+}
